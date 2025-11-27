@@ -1,5 +1,5 @@
 # Cycle-2  6 PERFORMANCE ANALYSIS OF THE NETWORK WITH CSMA/CD -NS2
-PERFORMANCE ANALYSIS OF THE NETWORK WITH CSMA/CD
+# PERFORMANCE ANALYSIS OF THE NETWORK WITH CSMA/CD
 # NS2 Simulation: CSMA/CD Network Performance
 
 ## 🎯 AIM
@@ -32,6 +32,7 @@ To write an NS2 program to observe the performance of the network with Carrier S
 19. At a specific time, call the finish procedure.  
 20. Stop the program.
 ## PROGRAM:
+```
 
 #Lan simulation – mac.tcl setns [new Simulator] #define color for data flows
 $ns color 1 blue
@@ -88,11 +89,11 @@ $nsat 7.0 "$ftp stop"
 $ns at 7.5 "$cbr stop"
 $ns at 8.0 "finish"
 $ns run
+```
 
 
 ## 📊 MODEL OUTPUT
-<img src="C:\Users\Latha\OneDrive\Pictures\Screenshots\code block 2.png" alt="Code block 2" width="200"/>
-
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/de1ebe9b-d26c-4763-a82d-ba27342f758d" />
 
 ## 📝 MARK ALLOCATION
 
